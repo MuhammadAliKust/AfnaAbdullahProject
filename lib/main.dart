@@ -1,6 +1,7 @@
 import 'package:afnan_abdullah/Image_screen.dart';
 import 'package:afnan_abdullah/colum_row.dart';
 import 'package:afnan_abdullah/home2.dart';
+import 'package:afnan_abdullah/list_view_demo.dart';
 import 'package:afnan_abdullah/login.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginView(),
+      home: ListViewDemo(),
       // home: Scaffold(
       //   backgroundColor: Colors.blue,
       //   appBar: AppBar(
