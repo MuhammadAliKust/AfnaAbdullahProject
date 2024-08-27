@@ -1,8 +1,10 @@
 import 'package:afnan_abdullah/Image_screen.dart';
 import 'package:afnan_abdullah/colum_row.dart';
+import 'package:afnan_abdullah/dynamic_list_view.dart';
 import 'package:afnan_abdullah/home2.dart';
 import 'package:afnan_abdullah/list_view_demo.dart';
 import 'package:afnan_abdullah/login.dart';
+import 'package:afnan_abdullah/page_view_demo.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ListViewDemo(),
+      home: PageViewDemo(),
       // home: Scaffold(
       //   backgroundColor: Colors.blue,
       //   appBar: AppBar(
