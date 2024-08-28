@@ -26,7 +26,7 @@ class PageViewDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Page View Demo"),
+        title: const Text("Page View Demo"),
       ),
       body: Column(
         children: [
@@ -49,14 +49,14 @@ class PageViewDemo extends StatelessWidget {
           SmoothPageIndicator(
               controller: pageController, // PageController
               count: onBoardingList.length,
-              effect: ExpandingDotsEffect(
+              effect: const ExpandingDotsEffect(
                 dotWidth: 8,
                 dotHeight: 8,
                 activeDotColor: Colors.yellow,
                 dotColor: Colors.black
               ), // your preferred effect
               onDotClicked: (index) {}),
-          SizedBox(height: 100,)
+          const SizedBox(height: 100,)
         ],
       ),
     );
