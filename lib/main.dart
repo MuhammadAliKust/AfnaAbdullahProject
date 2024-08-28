@@ -1,4 +1,5 @@
 import 'package:afnan_abdullah/Image_screen.dart';
+import 'package:afnan_abdullah/bottom_bar_view.dart';
 import 'package:afnan_abdullah/colum_row.dart';
 import 'package:afnan_abdullah/dynamic_list_view.dart';
 import 'package:afnan_abdullah/home2.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PageViewDemo(),
+      home: BottomBarView(),
       // home: Scaffold(
       //   backgroundColor: Colors.blue,
       //   appBar: AppBar(
