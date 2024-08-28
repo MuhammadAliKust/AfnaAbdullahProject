@@ -6,6 +6,7 @@ import 'package:afnan_abdullah/home2.dart';
 import 'package:afnan_abdullah/list_view_demo.dart';
 import 'package:afnan_abdullah/login.dart';
 import 'package:afnan_abdullah/page_view_demo.dart';
+import 'package:afnan_abdullah/tabbar_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BottomBarView(),
+      home: TabbarDemo(),
       // home: Scaffold(
       //   backgroundColor: Colors.blue,
       //   appBar: AppBar(
